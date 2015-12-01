@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.1.final using JasperReports Library version 6.1.1  -->
+<!-- 2015-12-01T20:13:16 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="Rel1" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="7368ded4-1353-46d7-b181-2687af11259c">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="CustomDS"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<field name="f1" class="java.lang.String"/>
+	<field name="f2" class="java.lang.String"/>
+	<field name="Field_3" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement x="39" y="0" width="100" height="30" uuid="ade081cf-59da-42c5-8622-0ed16d715e2d"/>
+				<text><![CDATA[Field_1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="230" y="0" width="100" height="30" uuid="c61ccd47-d9aa-4ba8-89fa-50dc94fea717"/>
+				<text><![CDATA[Field_2]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="453" y="0" width="100" height="30" uuid="0720eaed-664c-4c76-b944-f058c31a8118"/>
+				<text><![CDATA[Field_3]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement x="39" y="52" width="100" height="30" uuid="03eebabe-9f11-4a0f-989b-57cb26893f9e"/>
+				<textFieldExpression><![CDATA[$F{f1}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="230" y="57" width="100" height="30" uuid="2925f197-ce36-41ec-b42f-9c98d6b524d9"/>
+				<textFieldExpression><![CDATA[$F{f2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="453" y="61" width="100" height="30" uuid="e0403386-e6d0-4917-804d-b015f93c5a6d"/>
+				<textFieldExpression><![CDATA[$F{Field_3}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
